@@ -6,6 +6,7 @@ import json
 from qdrant_client import QdrantClient
 from sentence_transformers import SentenceTransformer, CrossEncoder
 import os
+from collections import deque  # Import deque for maintaining conversation history
 
 # Disable symlink warning
 os.environ["HF_HUB_DISABLE_SYMLINKS_WARNING"] = "1"
@@ -33,6 +34,8 @@ cross_encoder = CrossEncoder('cross-encoder/ms-marco-MiniLM-L-12-v2', device='cp
 # Initialize Qdrant client
 qdrant_client = QdrantClient(host="localhost", port=6333)
 
+# Maintain a conversation history (deque for efficient appends and pops)
+conversation_history = deque(maxlen=2)
 
 # Retrieval function
 def retrieve_documents(query, top_k=5):
@@ -50,14 +53,15 @@ def retrieve_documents(query, top_k=5):
         return [doc for doc, score in ranked_results]
     return []
 
-
 # Response generation function using phi3:mini
-def generate_response(context, query):
+def generate_response(context, query, history):
     url = "http://localhost:11434/api/generate"
     headers = {
         "Content-Type": "application/json"
     }
-    prompt = f"Context: {context} Question: {query} Provide a brief and direct answer:"
+    # Format conversation history as part of the prompt
+    history_text = "\n".join([f"Q: {h['query']}\nA: {h['response']}" for h in history])
+    prompt = f"Conversation History:\n{history_text}\nContext: {context} Question: {query} Provide a brief and direct answer:"
     payload = {
         "model": "phi3:mini",
         "prompt": prompt
@@ -66,8 +70,6 @@ def generate_response(context, query):
     try:
         # Make the POST request
         response = requests.post(url, headers=headers, data=json.dumps(payload))
-
-        # Parse the response
         raw_data = response.text.strip().split("\n")
         output = []
         for item in raw_data:
@@ -77,13 +79,10 @@ def generate_response(context, query):
                     output.append(data['response'])
             except json.JSONDecodeError:
                 print(f"Failed to parse: {item}")
-
-        # Combine the extracted responses into a complete output
-        return "".join(output)
+        return "".join(output)  # Combine the extracted responses
     except Exception as e:
         print(f"An error occurred: {e}")
         return "An error occurred while generating the response."
-
 
 # Flask route for API
 @app.route("/ask", methods=["POST"])
@@ -92,7 +91,7 @@ def ask():
     Handles user queries and measures response time for retrieval and response generation.
 
     Returns:
-        JSON response containing the generated answer and time taken for each step.
+        JSON response containing the generated answer, timing breakdowns, and time taken.
     """
     data = request.get_json()
     query = data.get("query", "")
@@ -100,16 +99,19 @@ def ask():
     if query:
         start_time = time.time()  # Start overall timing
 
-        # Measure retrieval time
+        # Step 1: Retrieve documents
         start_retrieval = time.time()
         retrieved_docs = retrieve_documents(query)
         retrieval_time = time.time() - start_retrieval
 
-        # Measure response generation time
+        # Step 2: Generate response
         context = " ".join(retrieved_docs)  # Combine context
         start_generation = time.time()
-        response = generate_response(context, query)
+        response = generate_response(context, query, conversation_history)
         generation_time = time.time() - start_generation
+
+        # Step 3: Update conversation history
+        conversation_history.append({"query": query, "response": response})
 
         end_time = time.time()  # End overall timing
         total_time = round(end_time - start_time, 2)
@@ -122,7 +124,6 @@ def ask():
         })
     else:
         return jsonify({"error": "No query provided"}), 400
-
 
 # Run the Flask app
 if __name__ == "__main__":

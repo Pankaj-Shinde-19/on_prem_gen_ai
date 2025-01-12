@@ -210,127 +210,6 @@ Cloud Experience Engineering
 agivant
 Contact us at hello@agivant.com
 © 2023 Agivant Technologie. All rights reserved. agivant
-Conversational AI
-with Google Dialogflow
-Agivant's Conversational AI Methodologies Using Google DialogFlowCX
-The Agivant Conversational AI Platform takes a comprehensive approach to expedite the creation of conversational
-AI solutions (Chatbot/Virtual Assistants) by incorporating automation and integration throughout various stages of
-the development process, including prototyping, design, testing, and analytics.
-Taking the Google Dialogflow CX tool case study, the Agivant Conversational AI Platform combines named and
-adaptable integration with the existing technology of enterprises, minimizing the need for extensive change
-management. Moreover, it fills existing gaps by enhancing your ecosystem with cutting-edge toolsets.
-Agivant Conversational AI Platform with Google Dialogflow CX implementation offers various application scenarios
-tailored to various industries, from Business to IT Operations. With its intuitive graphical flow orchestration,
-business users can design chat flows, customize use cases, and preconfigure knowledge bases for culture-specific
-interactions.
-Some of the essential attributes of Google Dialogflow’s impact and potential from Agivant Conversational AI Team
-are as follows:
-Human Language Conversation Standardizing Al Contextual Understanding
-By leveraging natural language processing (NLP) and DialogFlow has played a crucial role in standardizing Dialogflow’s ability to understand the context of a
-machine learning, DialogFlow enables developers to Al by making it accessible to a broader audience by conversation using intents and entities enabled our
-build chatbots and virtual assistants to understand providing a user-friendly interface and community developers can design Al systems that remember
-and respond to user queries more intuitively. support. and refer back to previous user inputs, leading to
-more meaningful and personalized interactions.
-Agivant team has made significant developments in Agivant team leveraged this to open new This contextual understanding enhances the overall
-creating natural and human-like conversations. opportunities for businesses of all sizes by user experience, as Al can maintain a coherent and
-implementing conversational Al in various ongoing dialogue.
-applications, from customer support to virtual
-companions.
-Multilingual Capabilities Continuous Learning and Training Ethical Concerns
-With the increasing globalization and diverse user DialogFlow’s machine-learning capabilities enable As conversational Al becomes more prevalent,
-bases of Agivant customers, DialogFlow’s support conversational bots to train and improve DialogFlow raises critical ethical considerations. It
-for multiple languages and multimodal interactions continuously over time. The Al system can adapt its prompts discussions about privacy, data security,
-has become a game changer. It allows businesses to responses, identify patterns, and refine its and the responsible use of Al.
-engage with users from different regions and understanding of user intent by analyzing user
-language backgrounds, breaking down walls and interactions, feedback, and relevant data. Agivant developers using DialogFlow prioritize
-expanding their spread. transparency, consent, and protection of user data,
-In Agivant, we establish this iterative learning ensuring that their developed agents adhere to
-Furthermore, the integration of voice, text, and process to make the Al system more accurate, ethical guidelines and regulations.
-other modalities enables users to interact with Al efficient, and personalized as it gains more exposure
-systems using their preferred mode of to real-world conversations.
-communication.
-www.agivant.com agivant
-Large Language Model Integration
-Conversational AI Platforms and LLM models offer a powerful combined effect that takes conversational
-experiences to new heights. By integrating LLMs, such as PaLM 2/Open AI, into Conversational AI Platforms,
-businesses can leverage these models' advanced language processing and generation capabilities to create more
-intelligent, context-aware, and human-like interactions.
-LLMs excel in understanding and generating natural language text, allowing them to comprehend user queries and
-generate responses that mimic human conversation. This integration enables Conversational AI Platforms to benefit
-from the extensive pre-training and language knowledge encapsulated within LLMs, enhancing their understanding
-of user intent and improving the quality of responses.
-Agivant Conversational AI team assists businesses in swiftly developing, training, evaluating, and implementing
-conversational AI interfaces. They seamlessly handle the entire lifecycle of conversational AI, including integration
-with top-notch LLM models.
-Agivant team has successfully created multiple modules, POC, and POV, to leverage the LLM model’s power with
-Google DialogFlow usability to solve advanced industry-level problems such as Cross-Lingual Conversations,
-Enhancing Emotional Intelligence, Collaborative Problem Solving, Domain-Specific Conversational Expertise, etc.
-Featuring, as below, an illustrative use case where the LLM model is used to generate an SQL query, validate it, and
-the same is then used for fetching data from SQL DB. This generic use case can be used as a base model for any
-industry and can be plugged in with any backend technology.
-Intents
-Entities
-Invoke Webhooks
-Response Route Groups
-Invoke
-Response Response
-Dialogflow CX
-www.agivant.com
-ssecorP gniniarT
-Machine
-Learning
-gninuT
-eniF
-In summary, Google Dialogflow has revolutionized conversational AI, and
-the Agivant Conversational AI Platform team managed to leverage its full
-ability to solve multiple industry use cases such as Customer Service and
-Support, E-commerce and Retail, HR Support, Healthcare and
-Telemedicine, Banking and Finance, Travel and Hospitality, etc.
-Tokenizing user questions to
-SQL query format string
-providing additional details for LLM model to convert it into LLM Boundary
-SQL query
-Customized
-Chat Widget LLM SQL
-Messengers Query Model
-Custom Client Invoke Request SQL Query
-Response Response
-LLM Query
-Chat Cloud Function Validation Cloud SQL
-Import AgentsClient Model Instance
-Import SessionsClient Import Sessions Prepare Training Data
-Invoke
-AgentsClient_parse_ Fine Tuning LLM Model
-agent_path Response Verification for accuracy
-Model deployment
-session_client.detect_
-intent
-Scheduled Unresolved intents
-Moodel Fine and queries
-Tuning
-Web Interface Storage agivant
-Agivant is a new age We enable clients with We partner with clients We are a result oriented
-AI-First Digital & Cloud the power of to help them in team that focuses in
-Engineering Services technology solutions to Technology Innovation, delivering client success
-Company. help them achieve their Scale & Optimization through their business
-trajectory of growth and Engineering growth and relevance to
-and relevance, through Enablement. the new world of
-agility. opportunities.
-Agivant is a new-age AI-First Digital and Cloud Engineering services company that drives Agility and Relevance for
-our client’s success.
-Powered by cutting-edge technology solutions that enable new business models and revenue streams, we help our
-clients achieve their trajectory of growth. Agility is a core muscle, an integral part of the fabric of a modern enterprise.
-To succeed in an ever-changing business environment, every modern organization needs to adapt and renew itself
-quickly. We help foster a more agile approach to business to reconfigure strategy, structure, and processes to achieve
-more growth and drive greater efficiencies.
-Our Services
-Our portfolio of services helps leading enterprises adopt cutting-edge technology solutions to transform their
-products and services and evolve business models.
-Platform Engineering AI and Data
-Cloud Experience Engineering
-agivant
-Contact us at hello@agivant.com
-© 2023 Agivant Technologie. All rights reserved. agivant
 Hyper Intelligent Automation
 using WorkFusion
 Agivant’s Hyper Intelligent Automation
@@ -564,6 +443,127 @@ starting at earlier stages.
 Agivant Lab leverages our solution framework to deliver CDP, real-time
 decision engine, machine learning models, and Adobe marketing tools.
 www.agivant.com agivant
+Agivant is a new age We enable clients with We partner with clients We are a result oriented
+AI-First Digital & Cloud the power of to help them in team that focuses in
+Engineering Services technology solutions to Technology Innovation, delivering client success
+Company. help them achieve their Scale & Optimization through their business
+trajectory of growth and Engineering growth and relevance to
+and relevance, through Enablement. the new world of
+agility. opportunities.
+Agivant is a new-age AI-First Digital and Cloud Engineering services company that drives Agility and Relevance for
+our client’s success.
+Powered by cutting-edge technology solutions that enable new business models and revenue streams, we help our
+clients achieve their trajectory of growth. Agility is a core muscle, an integral part of the fabric of a modern enterprise.
+To succeed in an ever-changing business environment, every modern organization needs to adapt and renew itself
+quickly. We help foster a more agile approach to business to reconfigure strategy, structure, and processes to achieve
+more growth and drive greater efficiencies.
+Our Services
+Our portfolio of services helps leading enterprises adopt cutting-edge technology solutions to transform their
+products and services and evolve business models.
+Platform Engineering AI and Data
+Cloud Experience Engineering
+agivant
+Contact us at hello@agivant.com
+© 2023 Agivant Technologie. All rights reserved. agivant
+Conversational AI
+with Google Dialogflow
+Agivant's Conversational AI Methodologies Using Google DialogFlowCX
+The Agivant Conversational AI Platform takes a comprehensive approach to expedite the creation of conversational
+AI solutions (Chatbot/Virtual Assistants) by incorporating automation and integration throughout various stages of
+the development process, including prototyping, design, testing, and analytics.
+Taking the Google Dialogflow CX tool case study, the Agivant Conversational AI Platform combines named and
+adaptable integration with the existing technology of enterprises, minimizing the need for extensive change
+management. Moreover, it fills existing gaps by enhancing your ecosystem with cutting-edge toolsets.
+Agivant Conversational AI Platform with Google Dialogflow CX implementation offers various application scenarios
+tailored to various industries, from Business to IT Operations. With its intuitive graphical flow orchestration,
+business users can design chat flows, customize use cases, and preconfigure knowledge bases for culture-specific
+interactions.
+Some of the essential attributes of Google Dialogflow’s impact and potential from Agivant Conversational AI Team
+are as follows:
+Human Language Conversation Standardizing Al Contextual Understanding
+By leveraging natural language processing (NLP) and DialogFlow has played a crucial role in standardizing Dialogflow’s ability to understand the context of a
+machine learning, DialogFlow enables developers to Al by making it accessible to a broader audience by conversation using intents and entities enabled our
+build chatbots and virtual assistants to understand providing a user-friendly interface and community developers can design Al systems that remember
+and respond to user queries more intuitively. support. and refer back to previous user inputs, leading to
+more meaningful and personalized interactions.
+Agivant team has made significant developments in Agivant team leveraged this to open new This contextual understanding enhances the overall
+creating natural and human-like conversations. opportunities for businesses of all sizes by user experience, as Al can maintain a coherent and
+implementing conversational Al in various ongoing dialogue.
+applications, from customer support to virtual
+companions.
+Multilingual Capabilities Continuous Learning and Training Ethical Concerns
+With the increasing globalization and diverse user DialogFlow’s machine-learning capabilities enable As conversational Al becomes more prevalent,
+bases of Agivant customers, DialogFlow’s support conversational bots to train and improve DialogFlow raises critical ethical considerations. It
+for multiple languages and multimodal interactions continuously over time. The Al system can adapt its prompts discussions about privacy, data security,
+has become a game changer. It allows businesses to responses, identify patterns, and refine its and the responsible use of Al.
+engage with users from different regions and understanding of user intent by analyzing user
+language backgrounds, breaking down walls and interactions, feedback, and relevant data. Agivant developers using DialogFlow prioritize
+expanding their spread. transparency, consent, and protection of user data,
+In Agivant, we establish this iterative learning ensuring that their developed agents adhere to
+Furthermore, the integration of voice, text, and process to make the Al system more accurate, ethical guidelines and regulations.
+other modalities enables users to interact with Al efficient, and personalized as it gains more exposure
+systems using their preferred mode of to real-world conversations.
+communication.
+www.agivant.com agivant
+Large Language Model Integration
+Conversational AI Platforms and LLM models offer a powerful combined effect that takes conversational
+experiences to new heights. By integrating LLMs, such as PaLM 2/Open AI, into Conversational AI Platforms,
+businesses can leverage these models' advanced language processing and generation capabilities to create more
+intelligent, context-aware, and human-like interactions.
+LLMs excel in understanding and generating natural language text, allowing them to comprehend user queries and
+generate responses that mimic human conversation. This integration enables Conversational AI Platforms to benefit
+from the extensive pre-training and language knowledge encapsulated within LLMs, enhancing their understanding
+of user intent and improving the quality of responses.
+Agivant Conversational AI team assists businesses in swiftly developing, training, evaluating, and implementing
+conversational AI interfaces. They seamlessly handle the entire lifecycle of conversational AI, including integration
+with top-notch LLM models.
+Agivant team has successfully created multiple modules, POC, and POV, to leverage the LLM model’s power with
+Google DialogFlow usability to solve advanced industry-level problems such as Cross-Lingual Conversations,
+Enhancing Emotional Intelligence, Collaborative Problem Solving, Domain-Specific Conversational Expertise, etc.
+Featuring, as below, an illustrative use case where the LLM model is used to generate an SQL query, validate it, and
+the same is then used for fetching data from SQL DB. This generic use case can be used as a base model for any
+industry and can be plugged in with any backend technology.
+Intents
+Entities
+Invoke Webhooks
+Response Route Groups
+Invoke
+Response Response
+Dialogflow CX
+www.agivant.com
+ssecorP gniniarT
+Machine
+Learning
+gninuT
+eniF
+In summary, Google Dialogflow has revolutionized conversational AI, and
+the Agivant Conversational AI Platform team managed to leverage its full
+ability to solve multiple industry use cases such as Customer Service and
+Support, E-commerce and Retail, HR Support, Healthcare and
+Telemedicine, Banking and Finance, Travel and Hospitality, etc.
+Tokenizing user questions to
+SQL query format string
+providing additional details for LLM model to convert it into LLM Boundary
+SQL query
+Customized
+Chat Widget LLM SQL
+Messengers Query Model
+Custom Client Invoke Request SQL Query
+Response Response
+LLM Query
+Chat Cloud Function Validation Cloud SQL
+Import AgentsClient Model Instance
+Import SessionsClient Import Sessions Prepare Training Data
+Invoke
+AgentsClient_parse_ Fine Tuning LLM Model
+agent_path Response Verification for accuracy
+Model deployment
+session_client.detect_
+intent
+Scheduled Unresolved intents
+Moodel Fine and queries
+Tuning
+Web Interface Storage agivant
 Agivant is a new age We enable clients with We partner with clients We are a result oriented
 AI-First Digital & Cloud the power of to help them in team that focuses in
 Engineering Services technology solutions to Technology Innovation, delivering client success
@@ -1051,24 +1051,4 @@ Platform Engineering AI and Data
 Cloud Experience Engineering
 agivant
 Contact us at hello@agivant.com
-© 2023 Agivant Technologie. All rights reserved. Welcome to Smallpdf
-Ready to take document management to the next level?
-Digital Documents—All In One Place
-With the new Smallpdf experience, you can
-freely upload, organize, and share digital
-documents. When you enable the ‘Storage’
-option, we’ll also store all processed files here.
-Enhance Documents in One Click
-When you right-click on a file, we’ll present
-you with an array of options to convert,
-compress, or modify it.
-Access Files Anytime, Anywhere
-You can access files stored on Smallpdf from
-your computer, phone, or tablet. We’ll also
-sync files from the Smallpdf Mobile App to our
-online portal
-Collaborate With Others
-Forget mundane administrative tasks. With
-Smallpdf, you can request e-signatures, send
-large files, or even enable the Smallpdf G Suite
-App for your entire organization.
+© 2023 Agivant Technologie. All rights reserved.
