@@ -90,4 +90,5 @@ on_prem_gen_ai/
 ├── Dockerfile
 ├── requirements.txt
 
-
+## ChatBot UI
+![image](https://github.com/user-attachments/assets/863ed7ed-8d75-4851-a688-c8f154167e0c)
