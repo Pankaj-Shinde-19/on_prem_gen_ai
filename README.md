@@ -28,14 +28,14 @@ To get started, follow these steps:
    git clone https://github.com/Pankaj-Shinde-19/on_prem_gen_ai.git
    cd on_prem_gen_ai
 2. Install dependencies:
-   pip install -r requirements.txt
+   ```plaintext pip install -r requirements.txt
 
 ## Usage
 Follow the steps below to use the application:
 
 1. **Run the Watcher Script:**
    This monitors the pdfs directory for new uploads.
-   python handlers/watcher.py
+   ```plaintext python handlers/watcher.py
 
 2. **Start the Flask API**:
    Ensure the backend is up and running.
