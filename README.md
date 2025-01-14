@@ -68,6 +68,8 @@ Follow the steps below to use the application:
 
 5. **User-Friendly Interface:**
    Intuitive chatbot UI for easy interaction with the system.
+## ChatBot UI
+![image](https://github.com/user-attachments/assets/b553db5d-5bd1-436d-b8ed-4bf4605c1af3)
 
 ## Project Hierarchy
 Here's an overview of the project's structure:
@@ -90,5 +92,3 @@ on_prem_gen_ai/
 ├── Dockerfile
 ├── requirements.txt
 
-## ChatBot UI
-![image](https://github.com/user-attachments/assets/863ed7ed-8d75-4851-a688-c8f154167e0c)
