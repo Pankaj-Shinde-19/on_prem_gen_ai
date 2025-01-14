@@ -30,7 +30,7 @@ To get started, follow these steps:
 2. Install dependencies:
    ```plaintext
    pip install -r requirements.txt
-
+3. Install the Llama library using the following GitHub repository: [Ollama Python](https://github.com/ollama/ollama-python)
 ## Usage
 Follow the steps below to use the application:
 
