@@ -67,7 +67,7 @@ Follow the steps below to use the application:
 
 ## Project Hierarchy
 Here's an overview of the project's structure:
-
+```plaintext
 on_prem_gen_ai/
 ├── api/
 │   ├── __init__.py
@@ -85,4 +85,5 @@ on_prem_gen_ai/
 ├── .gitignore
 ├── Dockerfile
 ├── requirements.txt
+
 
