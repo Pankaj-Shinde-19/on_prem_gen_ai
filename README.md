@@ -38,7 +38,6 @@ Follow the steps below to use the application:
    This monitors the pdfs directory for new uploads.
    ```plaintext
    python handlers/watcher.py
-
 2. **Start the Flask API**:
    Ensure the backend is up and running.
     ```plaintext
